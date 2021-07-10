@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
 	/* CREATE AND MANAGE DRAWING CANVAS WIDGET */
 	ac=0; 
 	drawing_area = XmCreateDrawingArea(toplevel, "name", al, ac);		
-	XtManageChild(chart_area);
+	XtManageChild(drawing_area);
 		
 	/* REALIZE TOPLEVEL WINDOW AND LAUNCH APPLICATION LOOP */
 	XtRealizeWidget(toplevel);
